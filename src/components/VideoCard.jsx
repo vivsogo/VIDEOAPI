@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom"; 
 import { Typography, Card, CardContent, CardMedia } from "@mui/material";
-import {CheckCircleIcon} from "@mui/icons-material/CheckCircle";
+import {CheckCircleIcon} from "@mui/icons-material/CheckCircleIcon";
 import { demoThumbnailUrl, demoVideoUrl, demoVideoTitle, demoChannelUrl, demoChannelTitle } from "../Utils/constants";
 
 const VideoCard = ({video: { id:{ videoId}, snippet}}) => {
   
   return (
-    <Card>
+    <Card >
       <Link to={videoId ? `/video/${videoId}` : demoVideoUrl }>
         <CardMedia image={snippet?. thumbnails?.high?.url} 
         alt={snippet?.title} 
@@ -20,6 +20,12 @@ const VideoCard = ({video: { id:{ videoId}, snippet}}) => {
           {snippet?.title.slice(0, 60) || demoVideoTitle.slice(0, 60)}
         </Typography>
         </Link>
+        <Link to={snippet?.channelId ? `/channel/${snippet?.channelId}` : demoChannelUrl} >
+        <Typography variant="subtitle2" color="gray">
+          {snippet?.channelTitle || demoChannelTitle}
+          <CheckCircleIcon sx={{ fontSize: "12px", color: "gray", ml: "5px" }} />
+        </Typography>
+      </Link>
       </CardContent>
     </Card>
   )
