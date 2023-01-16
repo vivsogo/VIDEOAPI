@@ -22,12 +22,13 @@ const ChannelCard = ({channelDetail}) => (
       <Link to={`/channel/${channelDetail?.id?.channelId}`}>
         <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', color: '#fff' }}>
         <CardMedia
-          image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
+          image="https://avatars.githubusercontent.com/u/89669550?s=400&u=b1df761004da24b34225203a41834d4859715179&v=4"
           alt={channelDetail?.snippet?.title}
           sx={{ borderRadius: '50%', height: '180px', width: '180px', mb: 2, border: '1px solid #e3e3e3' }}
         />
           <Typography variant="h6">
-          {channelDetail?.snippet?.title}{' '}
+           <p>Vivian Codes</p>
+
           <CheckCircleIcon sx={{ fontSize: '14px', color: 'gray', ml: '5px' }} />
         </Typography>
         {channelDetail?.statistics?.subscriberCount && (
