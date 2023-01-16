@@ -10,7 +10,7 @@ import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 
 
 
-export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo = 'https://avatars.githubusercontent.com/u/89669550?s=96&v=4';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
