@@ -5,12 +5,9 @@ import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 import SchoolIcon from '@mui/icons-material/School';
-import FaceRetouchingNaturalIcon from '@mui/icons-material/FaceRetouchingNatural';
-import CheckroomIcon from '@mui/icons-material/Checkroom';
-import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
-import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+
 
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
@@ -20,19 +17,18 @@ export const categories = [
   { name: 'JS Mastery ', icon: <CodeIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
-  { name: 'Beyonce', icon: <MusicNoteIcon /> },
+  { name: 'Python', icon: <CodeIcon />, },
   { name: 'Javascript Education', icon: <SchoolIcon />, },
-  { name: 'Tiny Desk ', icon: <GraphicEqIcon />, },
-  { name: 'Movie', icon: <OndemandVideoIcon />, },
+  { name: 'Beyonce', icon: <MusicNoteIcon /> },
+  { name: 'Tiny Desk ', icon: <MusicNoteIcon />, },
+  { name: 'Movies', icon: <OndemandVideoIcon />, },
+  { name: 'The Office ', icon: <TheaterComedyIcon />, },
   { name: 'PS5s', icon: <SportsEsportsIcon />, },
   { name: 'Messi', icon: <LiveTvIcon />, },
-  { name: 'Womens Sports', icon: <FitnessCenterIcon />, },
-  { name: 'Fashion', icon: <CheckroomIcon />, },
-  { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
-  { name: 'The Office ', icon: <TheaterComedyIcon />, },
+  { name: 'Womens Soccer', icon: <FitnessCenterIcon />, },
+  { name: 'Womens Basketball', icon: <FitnessCenterIcon />, },
+  { name: 'Women Sports', icon: <FitnessCenterIcon /> },
   { name: 'Home workouts', icon: <FitnessCenterIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
   
 ];
 
