@@ -25,6 +25,7 @@ export const categories = [
   { name: 'The Office ', icon: <TheaterComedyIcon />, },
   { name: 'PS5s', icon: <SportsEsportsIcon />, },
   { name: 'Messi', icon: <LiveTvIcon />, },
+  { name: 'FCBarcelona', icon: <LiveTvIcon />, },
   { name: 'Womens Soccer', icon: <FitnessCenterIcon />, },
   { name: 'Womens Basketball', icon: <FitnessCenterIcon />, },
   { name: 'Women Sports', icon: <FitnessCenterIcon /> },
