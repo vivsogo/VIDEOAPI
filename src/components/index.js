@@ -1,5 +1,4 @@
 export { default as VideoCard } from './VideoCard';
-export { default as ChannelDetail } from './ChannelDetail';
 export { default as Feed } from './Feed';
 //export { default as Loader } from './Loader';
 export { default as Navbar } from './Navbar';
